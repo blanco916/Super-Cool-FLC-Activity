@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+   FLC++ STARTER WEBSITE TEMPLATE
+   Free to use, change, and share. Make it yours!
+
+   QUICK START
+   1. Search this file for "EDIT ME" and replace the sample text.
+   2. Pick a color theme: change data-theme below.
+      Options: navy, forest, sunset, grape, ocean, mono
+   3. Don't want a section? Delete everything between its
+      "START" and "END" comments (and its link in the nav).
+  ============================================================
+-->
+<html lang="en" data-theme="navy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- EDIT ME: the name shown on the browser tab -->
+  <title>Your Name | Portfolio</title>
+  <!-- EDIT ME: a one-sentence description (shows up in Google results) -->
+  <meta name="description" content="Personal website of Your Name, student and builder.">
+
+  <!-- Free fonts from Google Fonts. Want different ones? See README. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== NAV BAR: START ===================== -->
+  <nav class="nav">
+    <!-- EDIT ME: your initials or short name -->
+    <a href="#top" class="logo">YN.</a>
+
+    <button class="menu-btn" id="menu-btn" aria-label="Open menu">☰</button>
+
+    <div class="nav-links" id="nav-links">
+      <!-- Each link jumps to the section with the matching id -->
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+      <button class="mode-btn" id="mode-btn" aria-label="Toggle dark mode">Dark</button>
+    </div>
+  </nav>
+  <!-- ===================== NAV BAR: END ===================== -->
+
+
+  <!-- ===================== HERO: START ===================== -->
+  <header class="hero" id="top">
+    <div class="hero-text">
+      <!-- EDIT ME: small label above your name -->
+      <p class="label">Student · Builder · FLC++</p>
+      <!-- EDIT ME: your name and a short headline -->
+      <h1>Hi, I'm <span class="highlight">Your Name</span>.</h1>
+      <p class="tagline">I'm studying computer science and I like building things for the web.</p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
+      </div>
+    </div>
+
+    <!--
+      PHOTO: Put a picture called photo.jpg in this folder, then
+      replace the <div class="avatar">YN</div> line below with:
+      <img src="photo.jpg" alt="Photo of me" class="avatar">
+    -->
+    <div class="avatar">YN</div>
+  </header>
+  <!-- ===================== HERO: END ===================== -->
+
+
+  <!-- ===================== ABOUT: START ===================== -->
+  <section class="section" id="about">
+    <p class="label">01. About</p>
+    <h2>About me</h2>
+
+    <!-- EDIT ME: a few sentences about you -->
+    <p>
+      I'm a college student working toward a degree in computer science.
+      I joined FLC++ to build real projects with other people. Outside of class I'm into
+      music, games, and figuring out how things work.
+    </p>
+
+    <h3>Things I work with</h3>
+    <!-- EDIT ME: add or remove skills. Copy a <li> line to add one. -->
+    <ul class="tags">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>C++</li>
+      <li>Python</li>
+      <li>Git</li>
+    </ul>
+  </section>
+  <!-- ===================== ABOUT: END ===================== -->
+
+
+  <!-- ===================== PROJECTS: START ===================== -->
+  <section class="section" id="projects">
+    <p class="label">02. Projects</p>
+    <h2>Things I've made</h2>
+
+    <div class="card-grid">
+
+      <!-- PROJECT CARD: copy from here... -->
+      <article class="card">
+        <p class="card-tag">Web</p>
+        <h3>This website</h3>
+        <p>My personal site, built from scratch with HTML, CSS, and JavaScript at an FLC++ meeting.</p>
+        <div class="card-links">
+          <a href="#">Live site →</a>
+          <a href="#">Code →</a>
+        </div>
+      </article>
+      <!-- ...to here to make another project card -->
+
+      <article class="card">
+        <p class="card-tag">Class project</p>
+        <h3>Grade calculator</h3>
+        <p>A C++ program that reads my scores and calculates my final grade for each class.</p>
+        <div class="card-links">
+          <a href="#">Code →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <!--
+          IMAGE (optional): put a picture in this folder and add
+          <img src="my-project.png" alt="Screenshot of my project">
+          on the line above the card-tag.
+        -->
+        <p class="card-tag">Hackathon</p>
+        <h3>Club game night</h3>
+        <p>A small browser game our team built in one weekend. I worked on the scoring and the menus.</p>
+        <div class="card-links">
+          <a href="#">Play it →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+  <!-- ===================== PROJECTS: END ===================== -->
+
+
+  <!-- ===================== EXPERIENCE: START ===================== -->
+  <!-- Clubs, jobs, volunteering, awards. Delete this section if you want. -->
+  <section class="section" id="experience">
+    <p class="label">03. Experience</p>
+    <h2>What I've been up to</h2>
+
+    <ol class="timeline">
+      <!-- EDIT ME: copy an <li> block to add another entry -->
+      <li>
+        <span class="when">2026 – now</span>
+        <h3>Member, FLC++ Coding Club</h3>
+        <p>Build web projects with other students and help at club workshops.</p>
+      </li>
+      <li>
+        <span class="when">2025</span>
+        <h3>Part-time job</h3>
+        <p>Worked with customers and learned to stay calm when things got busy.</p>
+      </li>
+    </ol>
+  </section>
+  <!-- ===================== EXPERIENCE: END ===================== -->
+
+
+  <!-- ===================== CONTACT: START ===================== -->
+  <section class="section contact" id="contact">
+    <p class="label">04. Contact</p>
+    <h2>Let's talk</h2>
+    <p>Have a question or want to build something together? Reach out.</p>
+
+    <!-- EDIT ME: replace the links with yours. Delete any you don't use. -->
+    <div class="contact-links">
+      <a class="btn btn-primary" href="mailto:you@example.com">Email me</a>
+      <a class="btn btn-outline" href="https://github.com/your-username" target="_blank">GitHub</a>
+      <a class="btn btn-outline" href="https://linkedin.com/in/your-username" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+  <!-- ===================== CONTACT: END ===================== -->
+
+
+  <footer class="footer">
+    <!-- The year updates by itself (see script.js) -->
+    <p>© <span id="year"></span> Your Name · Built at FLC++</p>
+  </footer>
+
+  <!-- JavaScript goes last so the page loads first -->
+  <script src="script.js"></script>
+</body>
+</html>
