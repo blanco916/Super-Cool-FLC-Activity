@@ -1,105 +1,435 @@
-# FLC++ Starter Website Template
+# 🚀 FLC++ | Build Your Own Personal Website!
 
-A free personal website you can make your own. It's plain HTML, CSS, and JavaScript, so there's nothing to buy, no account needed to edit it, and you can host it online for free.
+Welcome to the **FLC++ Personal Website Workshop!**
 
+In this activity, you'll create, customize, and publish your very own personal website using HTML, CSS, JavaScript, and GitHub Pages.
+
+**No prior web development experience is required!**
+
+By the end of this workshop, you'll have a fully functioning website that you can share with friends, professors, employers, and anyone else.
+
+You'll also gain valuable experience using GitHub, one of the most widely used tools in software development.
+
+---
+
+## 🎯 What You'll Learn
+
+During this activity, you'll learn how to:
+
+* ✅ Create and manage your own GitHub repository.
+* ✅ Understand the basics of HTML, CSS, and JavaScript.
+* ✅ Customize the appearance and content of a website.
+* ✅ Use GitHub to save and track your changes.
+* ✅ Publish a real website using GitHub Pages.
+* ✅ Share your website with the world!
+
+**The best part? Everything is completely free!**
+
+---
+
+# 🛠️ Part 1: Create Your Own Website Repository
+
+Before we start coding, we'll create your personal copy of the website template.
+
+### Step 1: Make a GitHub Account
+
+Visit https://github.com and create a free account if you don't already have one.
+
+Choose a username you like. It'll become part of your website's URL!
+
+### Step 2: Open the FLC++ Starter Template
+
+Visit our official template repository:
+
+**https://github.com/blanco916/Super-Cool-FLC-Activity**
+
+This repository contains all the files you'll need to get started.
+
+### Step 3: Create Your Personal Copy
+
+1. Find the green **Use this template** button near the top of the repository.
+2. Click **Create a new repository**.
+3. Select your personal GitHub account as the owner.
+4. Name your new repository `my-portfolio`.
+5. Set the repository to **Public**.
+6. Click **Create repository**.
+
+Congratulations! 🎉
+
+You now have your very own copy of the FLC++ website template!
+
+**Important:** Your repository is completely independent of the original. You can edit, experiment, and customize anything without affecting other club members.
+
+---
+
+# 💻 Part 2: Understanding Your Website
+
+Your new repository contains several files.
+
+| File                 | Purpose                                             |
+| -------------------- | --------------------------------------------------- |
+| `index.html`         | Controls the content and structure of your website. |
+| `style.css`          | Controls colors, fonts, spacing, and appearance.    |
+| `script.js`          | Adds interactive features and functionality.        |
+| `README.md`          | Contains instructions and project information.      |
+| `theme-previews.png` | Shows previews of available website themes.         |
+
+Let's take a closer look!
+
+### HTML — The Structure 🏗️
+
+HTML stands for HyperText Markup Language.
+
+Think of HTML as the skeleton of your website.
+
+It determines what information appears on the page, including text, images, buttons, and links.
+
+For example:
+
+```html
+<h1>Hello, World!</h1>
+<p>Welcome to my personal website!</p>
 ```
-flc-starter-template/
-├── index.html   ← your content (text, links, sections)
-├── style.css    ← how it looks (colors, fonts, spacing)
-├── script.js    ← extras (dark mode, phone menu, animations)
-└── README.md    ← this guide
+
+This creates a heading and a paragraph.
+
+### CSS — The Appearance 🎨
+
+CSS stands for Cascading Style Sheets.
+
+CSS controls how your website looks.
+
+For example:
+
+```css
+h1 {
+    color: blue;
+    font-size: 36px;
+}
 ```
 
----
+This makes your heading blue and changes its font size.
 
-## 1. Open it
+### JavaScript — The Functionality ⚡
 
-**On your own laptop (recommended)**
-1. Unzip this folder somewhere easy to find, like your Desktop.
-2. Download [Visual Studio Code](https://code.visualstudio.com) (free).
-3. In VS Code, click **Extensions** on the left, search **Live Server**, and install it.
-4. **File → Open Folder** and pick this folder.
-5. Right-click `index.html` and choose **Open with Live Server**. Your site opens in the browser and refreshes every time you save.
+JavaScript allows websites to respond to user interactions.
 
-**No laptop or can't install anything?**
-1. Go to [codepen.io](https://codepen.io) and click **Start Coding**.
-2. Paste everything from inside the `<body>` tag of `index.html` into the **HTML** box.
-3. Paste `style.css` into the **CSS** box and `script.js` into the **JS** box.
-4. In CodePen's settings (gear icon on the CSS box), add this font link under "Add external stylesheets":
-   `https://fonts.googleapis.com/css2?family=Lexend:wght@500;600&family=DM+Sans:wght@400;500;700&display=swap`
-5. Make a free CodePen account if you want to save your work.
+For example:
+
+```javascript
+alert("Welcome to my website!");
+```
+
+This displays a message in your browser.
+
+Our website template already includes JavaScript for interactive features such as dark mode and mobile navigation.
 
 ---
 
-## 2. Make it yours
+# ✏️ Part 3: Customize Your Website
 
-Work through this checklist. Search for **EDIT ME** in `index.html` to find every spot.
+Now comes the fun part!
 
-- [ ] Your name in the `<title>`, logo, hero, and footer
-- [ ] Your headline and tagline
-- [ ] Your About paragraph and skill tags
-- [ ] Your projects (class projects and club projects count!)
-- [ ] Your experience: clubs, jobs, volunteering, awards
-- [ ] Your contact links: email, GitHub, LinkedIn
-- [ ] Your color theme
+We're going to transform the starter template into a website that represents YOU.
 
-### Change the colors
-At the top of `index.html`, change `data-theme="navy"` to one of:
+## Option A: Edit Directly on GitHub (Easiest)
 
-| Theme | Look |
-|---|---|
-| `navy` | FLC++ navy and amber (default) |
-| `forest` | deep green and gold |
-| `sunset` | burnt orange and yellow |
-| `grape` | purple and pink |
-| `ocean` | teal and coral |
-| `mono` | black and white |
+You can edit your website directly in your browser!
 
-**Make your own theme:** in `style.css`, copy one theme block, rename it (for example `[data-theme="mine"]`), change the color codes, then set `data-theme="mine"`. Use any color picker (search "color picker" on Google) to get codes like `#1F3F66`.
+1. Open your personal GitHub repository.
+2. Click `index.html`.
+3. Click the pencil icon (Edit this file).
+4. Make your changes.
+5. Click **Commit changes** to save your work.
 
-### Change the fonts
-1. Pick any two fonts at [fonts.google.com](https://fonts.google.com) (all free).
-2. Click **Get font → Get embed code** and copy the `<link>` line.
-3. Replace the Google Fonts `<link>` in `index.html` with yours.
-4. Update `--font-heading` and `--font-body` at the top of `style.css`.
+You can repeat these steps for `style.css` and `script.js`.
 
-### Change the shape
-At the top of `style.css`:
-- `--radius`: roundness of cards and buttons. Try `0px` for sharp or `24px` for very round.
-- `--max-width`: how wide your content gets.
-- `--section-space`: room between sections.
+This method requires no additional software.
 
-### Add your photo
-Put a picture named `photo.jpg` in this folder. In `index.html`, replace
-`<div class="avatar">YN</div>` with
-`<img src="photo.jpg" alt="Photo of me" class="avatar">`
+**Tip:** Press the `.` key while viewing your repository to open GitHub's browser-based code editor, github.dev.
 
-### Add or remove things
-- **Another project:** copy one whole `<article class="card"> ... </article>` block and paste it right after.
-- **Project picture:** add `<img src="screenshot.png" alt="Screenshot of my project">` inside a card.
-- **Remove a section:** delete everything between its `START` and `END` comments, and delete its link in the nav bar.
-- **Turn off dark mode or animations:** set them to `false` in the `SETTINGS` at the top of `script.js`.
+## Option B: Use Visual Studio Code (Recommended)
+
+If you want a more realistic programming experience, we recommend VS Code.
+
+1. Download Visual Studio Code: https://code.visualstudio.com
+2. Open your GitHub repository.
+3. Click the green **Code** button.
+4. Select **Download ZIP**.
+5. Extract the ZIP file.
+6. Open the extracted folder in VS Code.
+7. Install the **Live Server** extension.
+8. Right-click `index.html`.
+9. Select **Open with Live Server**.
+
+Your website should open in your browser!
+
+Whenever you save a change, Live Server can automatically refresh your website.
+
+**Important:** Editing a downloaded copy does not automatically update GitHub. To publish your changes, you'll need to commit and push them with Git or VS Code's Source Control tools, or upload the changed files through GitHub.
 
 ---
 
-## 3. Put it online for free (GitHub Pages)
+# 🎨 Part 4: Make It Your Own!
 
-1. Make a free account at [github.com](https://github.com).
-2. Click **+ → New repository**. Name it `your-username.github.io` (use your actual username) and make it **Public**.
-3. Click **uploading an existing file** and drag in `index.html`, `style.css`, `script.js`, and any images. Click **Commit changes**.
-4. Go to **Settings → Pages**. Under "Branch," pick **main** and click **Save**.
-5. Wait a minute or two, then visit `https://your-username.github.io`. That's your live site!
+Your website template includes several sections that you can customize.
 
-To update it later, upload the changed files again.
+Open `index.html` and look for comments marked:
+
+`EDIT ME`
+
+These comments indicate areas where you should replace the example content.
+
+### Challenge 1: Introduce Yourself
+
+Update your website with:
+
+* Your name
+* Your major or area of interest
+* A short introduction
+* Your career goals
+* A fun fact about yourself
+
+### Challenge 2: Add Your Projects
+
+Every programmer, engineer, or creative professional should have a portfolio!
+
+Add at least two projects you've worked on.
+
+These can include:
+
+* Programming assignments
+* Arduino projects
+* Robotics projects
+* Personal websites
+* Engineering designs
+* School projects
+* Hackathon submissions
+
+Don't have any projects yet?
+
+No problem!
+
+Describe something you'd like to build in the future.
+
+### Challenge 3: Choose Your Theme
+
+Our template includes six color themes!
+
+| Theme    | Description           |
+| -------- | --------------------- |
+| `navy`   | Navy blue and amber   |
+| `forest` | Forest green and gold |
+| `sunset` | Orange and yellow     |
+| `grape`  | Purple and pink       |
+| `ocean`  | Teal and coral        |
+| `mono`   | Black and white       |
+
+To change your theme, open `index.html`.
+
+Near the top, find:
+
+```html
+<html lang="en" data-theme="navy">
+```
+
+Replace `navy` with another theme.
+
+For example:
+
+```html
+<html lang="en" data-theme="grape">
+```
+
+Save your changes and refresh the website.
+
+**Bonus challenge:** Create your own color theme by modifying `style.css`!
+
+### Challenge 4: Add Your Contact Information
+
+Update your contact section with links to your:
+
+* GitHub profile
+* LinkedIn profile
+* Professional email
+* Other relevant websites
+
+Make sure to replace the sample links!
+
+**Privacy tip:** Only publish information you're comfortable sharing publicly. Never upload passwords, API keys, or other private information.
 
 ---
 
-## Ideas to keep going
+# 🌎 Part 5: Publish Your Website!
 
-- Add a "Now" section with what you're learning this month
-- Link to a resume PDF: `<a href="resume.pdf">My resume</a>`
-- Add a favicon (the little icon in the browser tab)
-- Build a second page (like `blog.html`) and link to it from the nav
-- Ask an FLC++ officer to review your site before you share it
+You've customized your website.
 
-Questions? Ask in the FLC++ Discord: discord.gg/Dyu466fwFp
+Now it's time to put it on the internet!
+
+We'll be using **GitHub Pages**, a free website hosting service provided by GitHub.
+
+### Step 1: Open Your Repository Settings
+
+Navigate to your personal GitHub repository.
+
+Click **Settings**.
+
+### Step 2: Find GitHub Pages
+
+In the left sidebar, click **Pages**.
+
+### Step 3: Configure Publishing
+
+Under **Build and deployment**, select:
+
+**Source:** Deploy from a branch
+
+**Branch:** `main`
+
+**Folder:** `/(root)`
+
+Click **Save**.
+
+Make sure the **Custom domain** field is empty.
+
+### Step 4: Visit Your Website!
+
+After GitHub completes the deployment, your website should be available at:
+
+`https://YOUR-USERNAME.github.io/my-portfolio/`
+
+Replace `YOUR-USERNAME` with your actual GitHub username.
+
+For example, if your username is `coolengineer123`, your website would be:
+
+`https://coolengineer123.github.io/my-portfolio/`
+
+**Congratulations! 🎉 You've officially published your own website!**
+
+If your website doesn't load immediately, give GitHub a few minutes to complete deployment.
+
+You can also check the **Actions** tab in your repository for deployment errors.
+
+---
+
+# 🔄 Part 6: Updating Your Website
+
+Your website isn't something you build once and forget about.
+
+It's a project that can grow with you!
+
+As you learn new skills, complete projects, and gain experience, you can continuously improve your portfolio.
+
+To update your website:
+
+1. Open your personal GitHub repository.
+2. Modify your files.
+3. Commit your changes to the `main` branch.
+4. GitHub Pages will automatically publish the updated version.
+
+You can keep improving your website throughout your college and professional career!
+
+---
+
+# 🏆 FLC++ Workshop Challenge
+
+Your mission is to create a personal website that reflects your interests, skills, and personality.
+
+## Minimum Requirements
+
+Complete the following:
+
+* [ ] Create your own GitHub repository using the FLC++ template.
+* [ ] Change the website title to your name.
+* [ ] Write a personal introduction.
+* [ ] Update your About section.
+* [ ] Add at least two projects or project ideas.
+* [ ] Customize your website's color theme.
+* [ ] Update your contact links.
+* [ ] Publish your website using GitHub Pages.
+* [ ] Verify your website works on another device.
+
+## ⭐ Bonus Challenges
+
+Want to go above and beyond?
+
+Try completing these optional challenges!
+
+* [ ] Create your own custom color theme.
+* [ ] Add a personal profile picture.
+* [ ] Add animations or interactive elements.
+* [ ] Add a downloadable resume.
+* [ ] Add a new section to your website.
+* [ ] Make additional improvements to the mobile layout.
+* [ ] Add a second webpage.
+* [ ] Create a feature using JavaScript.
+
+**Remember: Creativity is encouraged!**
+
+Feel free to experiment with the template and make something entirely your own.
+
+---
+
+# 📤 Part 7: Share Your Finished Website!
+
+Once your website is published, share the following two links with your club officers:
+
+**1. Your GitHub Repository**
+
+Example:
+
+`https://github.com/YOUR-USERNAME/my-portfolio`
+
+**2. Your Live Website**
+
+Example:
+
+`https://YOUR-USERNAME.github.io/my-portfolio/`
+
+Your repository lets others explore your code.
+
+Your live website lets others see what you've built!
+
+We encourage everyone to share their creations and learn from one another.
+
+---
+
+# 💡 What's Next?
+
+Congratulations on completing your first website!
+
+You've taken an important step toward becoming a more experienced developer.
+
+Here are some ideas for continuing your journey:
+
+* Learn more advanced HTML and CSS.
+* Experiment with JavaScript.
+* Build additional websites.
+* Learn Git and GitHub.
+* Explore web development frameworks.
+* Create a technical portfolio.
+* Use your website when applying for internships!
+
+**The possibilities are endless.**
+
+---
+
+# 🤝 Need Help?
+
+If you get stuck, don't worry!
+
+Programming is about experimenting, troubleshooting, and learning from mistakes.
+
+Ask questions, collaborate with other members, and don't be afraid to try something new.
+
+You can also reach out to FLC++ officers or ask questions in our Discord community.
+
+**FLC++ Discord:** https://discord.gg/Dyu466fwFp
+
+---
+
+### Made for FLC++ 💻
+
+*Learn. Build. Collaborate.*
+
+Happy coding! 🚀
